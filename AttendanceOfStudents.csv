@@ -1,9 +1,9 @@
 Table 1
-;;;;;;
-;StudentName;StudentLastname;StudentID;Attendance;;
-;Hasan;Yilmaz;123456;Yes;;
-;Gokce;Emin;234567;No;;
-;Murat;Korkmaz;345678;Yes;;
-;Aysegul;Keskin;456789;No;;
-;Yesim;Bulut;567891;Yes;;
-;Ahmet;Ozcan;678912;Yes;;
+;;;;;;;
+;StudentID;StudentName;StudentLastname;Attendance;;;
+;123456;Hasan;Yilmaz;Yes;;;
+;234567;Gokce;Emin;No;;;
+;345678;Murat;Korkmaz;Yes;;;
+;456789;Aysegul;Keskin;No;;;
+;567891;Yesim;Bulut;Yes;;;
+;678912;Ahmet;Ozcan;Yes;;;
