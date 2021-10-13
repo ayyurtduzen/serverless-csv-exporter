@@ -13,7 +13,8 @@ hostname  = 'master-database.citqrnpqipqm.eu-west-1.rds.amazonaws.com'
 s3_bucket = os.getenv('S3_BUCKET_NAME')
 
 
-def handler(event, context):
+def lambda_handler(event, context):
+    status = 'DONE'
     # Try to connect the database, otherwise send an error
     try:
         connection = mysql.connector.connect(
@@ -52,6 +53,11 @@ def handler(event, context):
         conn.commit()
 
     connection.close()
+
+    return status
+
+if __name__ == "__main__":
+    lambda_handler(0,0)
 
 
 # Creates the table first
